@@ -61,6 +61,6 @@ python app.py
 * Add more interactive visualizations
 * Deploy the application online
 
-## Author
+## Live Link
 
-Dhavalika
+https://customer-churn-prediction-1-sdkd.onrender.com
