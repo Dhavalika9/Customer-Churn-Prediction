@@ -1,9 +1,8 @@
-Customer Churn Prediction
+# Customer Churn Prediction
 
 ## Project Overview
 
-Customer churn prediction is an important problem for businesses that want to retain customers. 
-This project uses machine learning techniques to analyze customer data and predict whether a customer is likely to leave the company.
+Customer churn prediction is an important problem for businesses that want to retain customers. This project uses machine learning techniques to analyze customer data and predict whether a customer is likely to leave the company.
 
 ## Objectives
 
@@ -22,6 +21,7 @@ This project uses machine learning techniques to analyze customer data and predi
 
 ## Project Structure
 
+```
 Customer-Churn-Prediction
 │
 ├── EDA.ipynb              # Data analysis and visualization
@@ -31,7 +31,7 @@ Customer-Churn-Prediction
 ├── app.py                 # Flask web application
 ├── models/                # Saved machine learning models
 └── templates/             # HTML templates for UI
-
+```
 
 ## Machine Learning Workflow
 
@@ -49,10 +49,11 @@ Customer-Churn-Prediction
 3. Train the model
 4. Run the Flask application
 
+```
 pip install -r requirements.txt
 python train_model.py
 python app.py
-
+```
 
 ## Future Improvements
 
@@ -60,3 +61,6 @@ python app.py
 * Add more interactive visualizations
 * Deploy the application online
 
+## Author
+
+Dhavalika
