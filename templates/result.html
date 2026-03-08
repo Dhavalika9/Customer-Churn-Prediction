@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Prediction Result</title>
+
+<style>
+
+body{
+margin:0;
+font-family:Arial;
+height:100vh;
+display:flex;
+justify-content:center;
+align-items:center;
+background:linear-gradient(120deg,#89f7fe,#66a6ff);
+}
+
+.result-box{
+background:white;
+padding:40px;
+width:420px;
+text-align:center;
+border-radius:12px;
+box-shadow:0 10px 25px rgba(0,0,0,0.2);
+}
+
+h1{
+color:#333;
+}
+
+.result{
+margin-top:20px;
+font-size:24px;
+font-weight:bold;
+color:#2575fc;
+}
+
+.message{
+margin-top:10px;
+font-size:16px;
+color:#555;
+}
+
+a{
+display:inline-block;
+margin-top:25px;
+text-decoration:none;
+background:#4facfe;
+color:white;
+padding:12px 22px;
+border-radius:6px;
+font-weight:bold;
+}
+
+a:hover{
+background:#007bff;
+}
+
+</style>
+</head>
+
+<body>
+
+<div class="result-box">
+
+<h1>Customer Churn Prediction</h1>
+
+
+
+    <h2>{{ prediction }}</h2>
+
+    <p>Churn Probability: {{ probability }} %</p>
+
+
+
+<p>This result indicates whether the customer is likely to churn or stay.</p>
+
+<a href="/">Predict Another Customer</a>
+
+</div>
+
+</body>
+</html>
